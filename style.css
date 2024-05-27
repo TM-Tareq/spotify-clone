@@ -32,7 +32,7 @@
     margin: 7px;
 
 }
-.left ul li {
+.home ul li {
     list-style: none;
     display: flex;
     width: 30px;
@@ -43,6 +43,7 @@
     align-items: center; */
     font-weight: 700;
     margin: 12px;
+    cursor: pointer;
 }
 .invert {
     filter: invert(1);
@@ -52,6 +53,17 @@
 }
 .rounded {
     border-radius: 15px;
+}
+/* Library Part */
+.header {
+    display: flex;
+    width: 30px;
+    gap: 15px;
+    /* width: 30px; */
+    font-weight: 700;
+}
+.header p {
+    width: 30px;
 }
 .right {
     width: 75vw;
